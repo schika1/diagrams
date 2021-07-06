@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T16:16:25.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="Oxx6wrjgnxf3Y3pTnvDq" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T16:21:43.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="wGirtg9Q1AIA0QFyyAyr" version="14.8.4" type="github">
   <diagram id="Kjf2XjKxpk_8KgAVDgRS" name="Page-1">
-    <mxGraphModel dx="2031" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9XcWgQcjVGN75zCIpsGC-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="100" width="780" height="800" as="geometry" />
+          <mxGeometry x="30" y="100" width="790" height="800" as="geometry" />
         </mxCell>
         <mxCell id="9XcWgQcjVGN75zCIpsGC-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="498.5" y="430" width="140" height="160" as="geometry" />
@@ -131,13 +131,13 @@
           <mxGeometry x="461.88" y="331" width="83.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9XcWgQcjVGN75zCIpsGC-41" value="EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="390" width="83.25" height="30" as="geometry" />
+          <mxGeometry x="270" y="400" width="83.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9XcWgQcjVGN75zCIpsGC-42" value="EC2 (Via ASG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="561.75" y="760" width="83.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9XcWgQcjVGN75zCIpsGC-43" value="EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="545.13" y="382" width="83.25" height="30" as="geometry" />
+          <mxGeometry x="538.5" y="400" width="83.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9XcWgQcjVGN75zCIpsGC-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="630" width="140" height="160" as="geometry" />
@@ -180,6 +180,9 @@
             <mxPoint x="310" y="520" as="sourcePoint" />
             <mxPoint x="260" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9XcWgQcjVGN75zCIpsGC-57" value="&lt;h1&gt;Task to be achieved.&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li&gt;We will have minimum of 2 servers&lt;/li&gt;&lt;li&gt;Our autoscalling group will bring up the 3rd one.&lt;/li&gt;&lt;li&gt;The AMI image is created from the instance in public subnet A.&lt;/li&gt;&lt;li&gt;The image will be used to spin up a new instance.&lt;/li&gt;&lt;li&gt;Observe the graph below the instance, is for CloudWatch which should work with autoscalling (Nneka was incharge of this).&lt;/li&gt;&lt;li&gt;Just one private subnet is fine.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="100" width="260" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
